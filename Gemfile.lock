@@ -118,6 +118,7 @@ GEM
       cocaine (~> 0.5.3)
       mime-types
     pdfkit (0.6.2)
+    pg (0.18.1)
     polyglot (0.3.5)
     rabl (0.11.6)
       activesupport (>= 2.3.14)
@@ -205,6 +206,7 @@ DEPENDENCIES
   mongoid-paperclip
   nested_form
   pdfkit
+  pg
   rabl
   rails (= 3.2.14)
   sass-rails (~> 3.2.3)
