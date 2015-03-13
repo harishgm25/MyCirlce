@@ -8,7 +8,13 @@ test:
 
 # set these environment variables on your prod server
 production:
-  uri: <%= ENV['MONGOLAB_URI'] %>
+  
+  sessions:
+    default:
+      uri: <%= ENV['MONGOHQ_URL'] %>
+      options:
+        skip_version_check: true
+        safe: true
   #host: <%= ENV['MONGOID_HOST'] %>
   #port: <%= ENV['MONGOID_PORT'] %>
   #username: <%= ENV['MONGOID_USERNAME'] %>
