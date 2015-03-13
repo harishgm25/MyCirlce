@@ -1,0 +1,56 @@
+--- 
+cursor_positions: 
+  - :path: app/views/vendors/sea
+    :cursor_offset: 0
+    :timestamp: 2015-03-07 15:16:42 +05:30
+  - :path: app/views/vendors/seracahblocation.html.hanl
+    :cursor_offset: 0
+    :timestamp: 2015-03-07 15:16:42 +05:30
+  - :path: app/views/vendors/index.html.haml
+    :cursor_offset: 46
+    :timestamp: 2015-02-15 20:42:22 +05:30
+    :selection_offset: 62
+    :block_selection_mode: false
+  - :path: app/views/vendors/index.html.haml~
+    :cursor_offset: 0
+    :timestamp: 2015-02-15 20:08:15 +05:30
+  - :path: app/views/vendors/new.html.haml
+    :cursor_offset: 0
+    :timestamp: 2015-02-13 20:07:23 +05:30
+  - :path: app/controllers/vendors_controller.rb
+    :cursor_offset: 2139
+    :timestamp: 2015-03-08 14:50:14 +05:30
+  - :path: Gemfile
+    :cursor_offset: 0
+    :timestamp: 2015-02-15 19:34:53 +05:30
+  - :path: app/assets/javascripts/application.js
+    :cursor_offset: 652
+    :timestamp: 2015-03-11 19:18:56 +05:30
+  - :path: app/views/categories/_form.html.haml
+    :cursor_offset: 344
+    :timestamp: 2015-03-11 19:29:53 +05:30
+  - :path: app/models/vendor.rb
+    :cursor_offset: 69
+    :timestamp: 2015-03-11 19:10:51 +05:30
+    :selection_offset: 43
+    :block_selection_mode: false
+  - :path: app/views/vendors/_form.html.haml
+    :cursor_offset: 696
+    :timestamp: 2015-03-11 19:50:31 +05:30
+  - :path: app/models/category.rb
+    :cursor_offset: 77
+    :timestamp: 2015-03-11 19:31:53 +05:30
+  - :path: app/views/vendors/searchbylocation.html.haml
+    :cursor_offset: 285
+    :timestamp: 2015-03-08 11:59:08 +05:30
+  - :path: config/routes.rb
+    :cursor_offset: 129
+    :timestamp: 2015-03-11 21:04:24 +05:30
+    :selection_offset: 114
+    :block_selection_mode: false
+  - :path: app/views/categories/index.html.haml
+    :cursor_offset: 103
+    :timestamp: 2015-03-11 20:27:05 +05:30
+    :selection_offset: 92
+    :block_selection_mode: false
+files_to_retain: 0

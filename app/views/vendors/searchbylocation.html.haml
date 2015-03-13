@@ -1,0 +1,28 @@
+%h1 Listing vendors
+
+%table
+  %tr
+    %th Name
+    %th Address
+    %th Long
+    %th Lati
+    %th Distance
+    %th Banner
+    %th
+    %th
+
+  - @vendorindist.each do |vendor|
+   
+    %tr
+      %td= vendor.name
+      %td= vendor.address
+      %td= vendor.long
+      %td= vendor.lati
+      %td= image_tag vendor.banner.url
+      %td= link_to "Show Category ", {:controller => "vendors", :action => "vendorscategory", :vendorid => vendor.id }
+      %td= link_to 'Edit', edit_vendor_path(vendor)
+      %td= link_to 'Destroy', vendor, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Vendor', new_vendor_path

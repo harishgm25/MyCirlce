@@ -1,0 +1,4 @@
+--- 
+open_files: 
+  - app/controllers/vendors_controller.rb
+  - app/views/vendors/searchbylocation.html.haml
