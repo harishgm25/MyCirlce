@@ -205,7 +205,7 @@ DEPENDENCIES
   less-rails
   libv8 (~> 3.11.8.3)
   mongo (= 1.6.2)
-  mongoid
+  mongoid (= 3.1.6)
   mongoid-paperclip
   nested_form
   pdfkit
