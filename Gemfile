@@ -18,9 +18,10 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  gem 'mongoid', '2.4.9'
-  gem 'mongo','1.6.2'
-  gem 'bson_ext'
+  gem "mongo",    "~> 1.6"
+  gem "bson_ext", "~> 1.6"
+  gem "mongoid",  "~> 2.4"
+  gem "mongoid_token", "~> 1.0"
   gem 'twitter-bootstrap-rails'  
   gem 'devise', '2.0.4'
   gem 'haml-rails'
