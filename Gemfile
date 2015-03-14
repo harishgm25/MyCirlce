@@ -16,7 +16,7 @@ group :assets do
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer', :platforms => :ruby
-  gem 'mongoid', '3.1.6'
+  gem 'mongoid', '2.4.9'
   gem 'mongo','1.6.2'
   gem 'bson_ext'
   gem 'twitter-bootstrap-rails'  
@@ -47,9 +47,12 @@ group :production do
   gem 'pg'
 end        
 
-group :development, :test do
-  gem 'sqlite3'
+group :production do
+  gem 'rails_12factor'
 end
+#group :development, :test do
+#  gem 'sqlite3'
+#end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
