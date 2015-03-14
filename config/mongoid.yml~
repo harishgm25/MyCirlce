@@ -1,16 +1,23 @@
 development:
-  host: localhost
-  database: my_circle_development
+  sessions:
+    default:
+      database: dev
+      hosts:
+        - localhost
+  options:
 
 test:
-  host: localhost
-  database: my_circle_test
+  sessions:
+    default:
+      database: test
+      hosts:
+        - localhost
 
-# set these environment variables on your prod server
 production:
   sessions:
     default:
-      uri: <%= ENV['MONGOHQ_URL'] %>
+      uri: <%= ENV['MONGOLAB_URI'] %>
       options:
         skip_version_check: true
-        safe: true  
+        safe: true
+
