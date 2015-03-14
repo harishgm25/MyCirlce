@@ -20,6 +20,7 @@ group :assets do
   gem 'therubyracer', :platforms => :ruby
   gem "mongo",    "~> 1.6"
   gem "bson_ext", "~> 1.6"
+  gem 'bson'
   gem "mongoid",  "3.1.6"
   gem "mongoid_token", "~> 1.0"
   gem 'twitter-bootstrap-rails'  

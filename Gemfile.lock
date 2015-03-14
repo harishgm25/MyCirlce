@@ -199,6 +199,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk (~> 1.3.4)
   bootstrap-datepicker-rails
+  bson
   bson_ext (~> 1.6)
   chagol
   client_side_validations (= 3.2.1)
