@@ -1,6 +1,12 @@
 development:
-  host: localhost
-  database: my_circle_development
+  #host: localhost
+  #database: my_circle_development
+  sessions:
+    default:
+      uri: <%= ENV['MONGOHQ_URL'] %>
+      options:
+        skip_version_check: true
+        safe: true
 
 test:
   host: localhost
@@ -8,21 +14,9 @@ test:
 
 # set these environment variables on your prod server
 production:
-  
   sessions:
     default:
-      uri: <%= ENV['MONGOLAB_URI'] %>
+      uri: <%= ENV['MONGOHQ_URL'] %>
       options:
         skip_version_check: true
-        safe: true
-  #host: <%= ENV['MONGOID_HOST'] %>
-  #port: <%= ENV['MONGOID_PORT'] %>
-  #username: <%= ENV['MONGOID_USERNAME'] %>
-  #password: <%= ENV['MONGOID_PASSWORD'] %>
-  #database: <%= ENV['MONGOID_DATABASE'] %>
-  # slaves:
-  #   - host: slave1.local
-  #     port: 27018
-  #   - host: slave2.local
-  #     port: 27019
-  
+        safe: true  
