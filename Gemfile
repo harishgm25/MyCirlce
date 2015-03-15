@@ -21,7 +21,7 @@ group :assets do
   gem "mongo",    "~> 1.6"
   gem "bson_ext", "~> 1.6"
   gem 'bson'
-  gem "mongoid",  "3.1.6"
+ # gem "mongoid",  "3.1.6"
   gem "mongoid_token", "~> 1.0"
   gem 'twitter-bootstrap-rails'  
   gem 'devise', '2.0.4'
@@ -53,6 +53,7 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem "mongoid",  "3.1.6"
 end
 #group :development, :test do
 #  gem 'sqlite3'
