@@ -39,7 +39,7 @@ group :assets do
   gem 'simple_form', '2.0.4'
   gem 'client_side_validations', '3.2.1'
   gem 'client_side_validations-simple_form', '2.0.1'
-  gem "mongoid-paperclip", :require => "mongoid_paperclip"
+ 
   gem 'aws-sdk', '~> 1.3.4'
   gem 'rabl'
 
@@ -54,6 +54,7 @@ end
 group :production do
   gem 'rails_12factor'
   gem "mongoid",  "3.1.6"
+  gem "mongoid-paperclip", :require => "mongoid_paperclip"
 end
 #group :development, :test do
 #  gem 'sqlite3'
