@@ -55,6 +55,7 @@ group :production do
   gem 'rails_12factor'
   gem "mongoid",  "3.1.6"
   gem "mongoid-paperclip", :require => "mongoid_paperclip"
+  gem 'haml-rails'
 end
 #group :development, :test do
 #  gem 'sqlite3'
