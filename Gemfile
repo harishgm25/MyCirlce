@@ -17,6 +17,18 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
+  
+
+end
+
+gem 'jquery-rails'
+
+#group :production do
+#  gem 'pg'
+#end        
+
+group :production do
+  gem 'rails_12factor'
   gem 'therubyracer', :platforms => :ruby
   gem "mongo",    "~> 1.6"
   gem "bson_ext", "~> 1.6"
@@ -45,17 +57,6 @@ group :assets do
  
   gem 'aws-sdk', '~> 1.3.4'
   gem 'rabl'
-
-end
-
-gem 'jquery-rails'
-
-#group :production do
-#  gem 'pg'
-#end        
-
-group :production do
-  gem 'rails_12factor'
   
 end
 #group :development, :test do
